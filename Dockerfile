@@ -8,4 +8,4 @@ WORKDIR /var/www/html/
 RUN unzip dotnet.zip
 RUN rm -rf digital-agency-website-template dotnet.zip
 CMD [ "/usr/sbin/httpd","D","FOREGROUND" ]
-EXPOSE 80
+EXPOSE 80 22
