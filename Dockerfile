@@ -1,4 +1,4 @@
-FROM dotnet:latest
+FROM centos:latest
 VOLUME /tmp
 RUN yum install -y httpd \
  zip\
