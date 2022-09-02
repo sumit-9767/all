@@ -7,5 +7,5 @@ ADD https://www.free-css.com/assets/files/free-css-templates/download/page281/do
 WORKDIR /var/www/html/
 RUN unzip dotnet.zip
 RUN rm -rf digital-agency-website-template dotnet.zip
-CMD [ "/usr/sbin/httpd","D","FOREGROUND" ]
-EXPOSE 80 90
+CMD [ "/usr/sbin/httpd","-D","FOREGROUND" ]
+EXPOSE 80 
